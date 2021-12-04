@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262a30"
+    android:columnCount="3"
+    android:rowCount="6">
+    <TextView
+        android:layout_columnSpan="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wellcome! choose who starts:"
+        android:textSize="28sp"
+        android:id="@+id/tvinfo"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_columnSpan="1"
+        android:textSize="20sp"
+        android:text="choose who starts:"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/tvstart"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:layout_columnSpan="1"
+        android:textSize="70sp"
+        android:text="X"
+        android:backgroundTint="#3701db"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnx"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_columnSpan="1"
+        android:textSize="70sp"
+        android:text="O"
+        android:backgroundTint="#3700db"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btno"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_columnSpan="1"
+        android:textSize="70sp"
+        android:text=""
+        android:layout_width="120dp"
+        android:backgroundTint="#27e871"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"/>
+
+
+    <Button
+        android:layout_rowSpan="1"
+        android:textSize="70sp"
+        android:text=""
+        android:layout_width="120dp"
+        android:backgroundTint="#27e871"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"/>
+
+    <Button
+        android:layout_rowSpan="1"
+        android:textSize="70sp"
+        android:text=""
+        android:layout_width="125dp"
+        android:backgroundTint="#27e871"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"/>
+
+    <Button
+        android:layout_rowSpan="1"
+        android:textSize="70sp"
+        android:text=""
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#27e871"
+        android:id="@+id/btn4"/>
+
+    <Button
+        android:layout_rowSpan="1"
+        android:textSize="70sp"
+        android:text=""
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#27e871"
+        android:id="@+id/btn5"/>
+
+    <Button
+        android:layout_rowSpan="1"
+        android:textSize="70sp"
+        android:text=""
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#27e871"
+        android:id="@+id/btn6"/>
+
+    <Button
+        android:layout_rowSpan="1"
+        android:textSize="70sp"
+        android:text=""
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#27e871"
+        android:id="@+id/btn7"/>
+
+    <Button
+        android:layout_rowSpan="1"
+        android:textSize="70sp"
+        android:text=""
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#27e871"
+        android:id="@+id/btn8"
+         />
+
+    <Button
+        android:layout_rowSpan="1"
+        android:textSize="70sp"
+        android:text=""
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#27e871"
+        android:id="@+id/btn9"
+       
+         />
+
+    <Button
+        android:layout_columnSpan="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:textSize="40sp"
+        android:id="@+id/btnreset"
+        android:backgroundTint="#3700db"
+        tools:ignore="HardcodedText" />
+</GridLayout>
